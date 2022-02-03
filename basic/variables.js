@@ -11,6 +11,7 @@ const PI = 3.1214; // can not change
 let firstNumber = 10;
 let secondNumber = 5;
 
+// Simple Math operation 
 
 let addNumber = firstNumber + secondNumber;
 
@@ -35,3 +36,25 @@ let remiderNumber = firstNumber % secondNumber;
 console.log("Remider Numbers = ", remiderNumber)
 
 
+// Comparision Area 
+let isEqual = firstNumber == secondNumber;
+
+console.log('is Equal firstNumber and secondNumber = ', isEqual);
+
+let isNotEqual = firstNumber != secondNumber;
+
+console.log('is Not  Equal firstNumber and secondNumber = ', isNotEqual);
+
+let isFistGretterThenSecond = firstNumber > secondNumber;
+
+console.log('is firstNumber  gretter then  secondNumber = ', isFistGretterThenSecond);
+
+let isFristNumberLessThenSecond = firstNumber < secondNumber;
+console.log('is firstNumber  less  then  secondNumber = ', isFristNumberLessThenSecond);
+
+let isEqualFristNumberGreterThenOrEqualSecondNumber = firstNumber >= secondNumber;
+console.log('is firstNumber  gretter then Or eequal  secondNumber = ', isEqualFristNumberGreterThenOrEqualSecondNumber);
+
+let  isEqualFristNumberLessThenOrEqual = firstNumber <= secondNumber;
+
+console.log('is firstNumber  Less then Or eequal  secondNumber = ', isEqualFristNumberLessThenOrEqual);
