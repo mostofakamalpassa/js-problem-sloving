@@ -10,3 +10,12 @@ while( i<= 19){
 
     i++;
 }
+
+console.log( " cheaking while and for loop using ")
+
+for(let j = 7; j<= 19;  j++){
+
+    if(j % 2 == 1){
+        console.log(j);
+    }
+}
