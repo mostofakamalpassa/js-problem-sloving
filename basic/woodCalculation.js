@@ -19,4 +19,4 @@ function woodCalculation(chire, table, bead){
 }
 
 
-console.log(woodCalculation(5, 2, 3));
+console.log(woodCalculation(5, 2, 3))
