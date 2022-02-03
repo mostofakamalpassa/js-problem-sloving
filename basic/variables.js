@@ -58,3 +58,15 @@ console.log('is firstNumber  gretter then Or eequal  secondNumber = ', isEqualFr
 let  isEqualFristNumberLessThenOrEqual = firstNumber <= secondNumber;
 
 console.log('is firstNumber  Less then Or eequal  secondNumber = ', isEqualFristNumberLessThenOrEqual);
+
+
+// condition cheaking 
+
+let isBothConditionCheacking = (firstNumber == 10 && secondNumber == 5);
+
+console.log("Is Both Condition Cheacking = ", isBothConditionCheacking);
+
+
+let isAtListOneNumberIsChecking = (firstNumber == 12 || secondNumber == 5);
+
+console.log("Is At List  Condition Cheacking = ", isAtListOneNumberIsChecking);
