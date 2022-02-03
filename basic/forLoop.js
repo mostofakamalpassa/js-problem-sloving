@@ -16,3 +16,15 @@ for(let key of array){
 
     console.log(key);
 }
+
+
+console.log("while of loop");
+
+let j = 0;
+
+while(j < array.length){
+
+    console.log(array[j]);
+
+    j++;
+}
